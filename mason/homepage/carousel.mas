@@ -153,74 +153,45 @@
   });
 </script>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <br/><br/>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <br/><br/>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
- 
-
-
-
-<div class="item">
-          <div style="background:url(/documents/img/CASSbase/cass_img.png) center center; background-size:cover;" class="slider-size">
-            <div class="carousel-sgn-caption">
-              <a href="http://www.biochemie.nat.uni-erlangen.de/Cassava/index.html" target="_blank">
-                <h3>Cassava Source-Sink Project</h3>
-                <p>Information and Goals</p>
-              </a>
+        <div class="item">
+            <div style="background:url(/documents/img/Anthr_Lf_Blt_3.jpg) center center; background-size:cover;" class="slider-size">
+                <div class="carousel-sgn-caption">
+                    <a href="http://www.plantpath.cornell.edu/labs/nelson_r/index.html" target="_blank">
+                        <h3>NelsonLab Database</h3>
+                        <p>Information</p>
+                    </a>
+                </div>
             </div>
-            
-            <!--<div class="carousel-sgn-links">
-              <ul>
-				<li><a href="http://www.slideshare.net/solgenomics/cassavabase-general-presentation-pag-2016"target="_blank">Cassavabase @ PAG Meeting 2016</a></li>
-              </ul>
-            </div>-->
-            
-          </div>
-        </a>
-      </div>
-
-
-      <div class="item">
-        <div style="background:url(/documents/img/CASSbase/cass_group.jpg) center center; background-size:cover;" class="slider-size">
-          <div class="carousel-sgn-caption">
-             <p><a href="http://www.nature.com/ncomms/2014/141010/ncomms6110/full/ncomms6110.html?wptouch_preview_theme=enabled">The Cassava genome: from a wild ancestor to cultivated varieties</a></p>
-          </div>
-        
-          <div class="carousel-sgn-links">
-            <ul>
-              <li><a href="http://phytozome.jgi.doe.gov/jbrowse/index.html?data=genomes%2FMesculenta_er%2F&loc=Chromosome01%3A99976..199975&tracks=Transcripts%2CAlt_Transcripts%2CPASA_assembly%2CBlastx_protein%2CBlatx_Plant_protein&highlight=">Browse the cassava genome v6.1 @ JGI</a></li>
-              <li><a href="http://phytozome.jgi.doe.gov/pz/portal.html#!search?show=BLAST&method=Org_Mesculenta_er"> BLAST search @ JGI</a></li>
-              <li><a href="http://phytozome.jgi.doe.gov/pz/portal.html#!bulk?org=Org_Mesculenta_er">Download the annotations @ JGI</a></li>
-              <li><a href="http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Mesculenta_er">Download the Genome Sequence v6.1 @ JGI</a></li>
-            </ul>
-          </div>
         </div>
-      </div>
 
 
-      <div class="item">
-			<div style="background:url(/documents/img/CASSbase/cass_harvest.jpg) center center; background-size:cover;" class="slider-size">
-				<div class="carousel-sgn-caption">
-				<h3><a href="/breeders/manage_programs/"> Breeding Programs</a></h3>
-				<p><a href="/breeders/trials/" target="_blank">Search, retrieve, save breeding trials</a></p>
-		</div>
-		   <div class="carousel-sgn-links">
-			<ul>
-				<li><a href="/breeders/search">Search accessions and trials</a></li>
-				<li><a href="/fieldbook">Fieldbook App & uploading</a></li>
-				<li><a href="/tools/onto/">Cassava Trait Ontology</a></li>
-			</ul>
-		</div>
 
+        <div class="item">
+            <div style="background:url(/documents/img/Stewart_wilt1.jpg) center center; background-size:cover;" class="slider-size">
+                <div class="carousel-sgn-caption">
+                    <h3><a href="/breeders/manage_programs/"> Breeding Programs</a></h3>
+                    <p><a href="/breeders/trials/" target="_blank">Search, retrieve, save breeding trials</a></p>
+                </div>
+                <div class="carousel-sgn-links">
+                    <ul>
+                        <li><a href="/breeders/search">Search accessions and trials</a></li>
+                        <li><a href="/fieldbook">Fieldbook App & uploading</a></li>
+                        <li><a href="/tools/onto/">Trait Ontology</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -233,5 +204,6 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a> -->
-  </div>
+
+</div>
 
