@@ -26,9 +26,8 @@ $phenotype_files => undef
             <div class="panel-heading">News</div>
             <div class="panel-body">
                 <ul>
-                <li><a href="/tools/expression_atlas/">Expression Atlas correlation tool can now be used for user defined data sets</a></li>
-                <li><a href="/expression_viewer/input">RNA seq data from Andreas and Frank are available in the Expression Atlas</a></li>
-                <li><a href="">Mesculenta PathwayTools Cyc available at http://ptools-cassbase.sgn.cornell.edu</a></li>
+                <li><a href="/breeders/locations">Add your locations using new interface</a></li>
+                <li><a href="/breeders/seedlots">Track seed inventory</a></li>
                 </ul>
             </div>
         </div>
@@ -38,12 +37,11 @@ $phenotype_files => undef
             <div class="panel-heading">Features</div>
             <div class="panel-body">
                 <ul>
-                <li><a href="/search/trials">Search Trials</a></li>
-                <li><a href="/search/stocks">Search Accessions, Transgenics, and Constructs From ETH DB</a></li>
+                <li><a href="/breeders/trials">Manage Field Trials</a></li>
+                <li><a href="/breeders/seedlots">Manage Seed Inventory</a></li>
+                <li><a href="/search/stocks">Search Accessions</a></li>
                 <li><a href="/breeders/phenotyping">Upload and Manage Your Phenotyping Data</a></li>
-                <li><a href="/tools/expression_atlas/">Browse and Import Datasets into Expression Atlas</a></li>
-                <li><a href="/tools/documents/">Browse Mesculenta v6 Gene Annotations</a></li>
-                <li><a href="/tools/onto/">Browse CHEBI, Cassava Trait Ontology, and More</a></li>
+                <li><a href="/tools/onto/">Browse Trait Ontologies</a></li>
                 </ul>
             </div>
         </div>
@@ -52,16 +50,10 @@ $phenotype_files => undef
 <div class="row">
     <div class="col-sm-6">
         <div class="panel panel-default">
-            <div class="panel-heading">Genotypes</div>
+            <div class="panel-heading">Favorite Genotypes</div>
             <div class="panel-body">
                 <ul>
-                <li><a href="/stock/5/view">IITA-TMS-IBA30572</a></li>
-                <li><a href="/stock/713/view">IITA-TMS-IBA980002</a></li>
-                <li><a href="/stock/723/view">IITA-TMS-IBA980581</a></li>
-                <li><a href="/stock/1281/view">IITA-TMS-IBA011412</a></li>
-                <li><a href="/stock/39671/view">TMEB419</a></li>
-                <li><a href="/stock/39679/view">TMEB693</a></li>
-                <li><a href="/stock/39680/view">TMEB7</a></li>
+                <li><a href="/stock/41441/view">B73</a></li>
                 </ul>
             </div>
         </div>
@@ -71,23 +63,18 @@ $phenotype_files => undef
             <div class="panel-heading">RNA Seq Data</div>
             <div class="panel-body">
                 <ul>
-                <li><a href="ftp://cassbase.org/RNAseq/Frank_RNA_Samples.xlsx">Frank's RNAseq Samples Information</a></li>
-                <li><a href="ftp://cassbase.org/RNAseq/Frank_RNA_expression_file.txt">Frank's RNAseq Expression Values</a></li>
-                <li><a href="ftp://cassbase.org/RNAseq/Andreas_RNA_SampleDescription.txt">Andreas' RNAseq Samples Information</a></li>
-                <li><a href="ftp://cassbase.org/RNAseq/Andreas_RNA_RootBulkingExpression.txt">Andreas' RNAseq Expression Values </a></li>
-                <!--li><a href="ftp://cassbase.org/RNAseq/Andreas_RNA_BTI_expression_file.txt">Andreas' RNAseq Expression Values (BTI Pipeline)</a></li-->
-                </ul>
-                <ul>
                 <li><a href="https://cassbase.org/expression_viewer/input">Expression Viewer (Select one of the two available RNA Projects)</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
+<& homepage/github_pullrequests.mas &>
+
 </div>
 
 % if ($phenotype_files) {
      <& homepage/phenotype_uploads.mas, phenotype_files=>$phenotype_files &>
 % }
 
-<& homepage/github_pullrequests.mas &>

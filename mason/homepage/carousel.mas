@@ -158,6 +158,7 @@
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
         <br/><br/>
     </ol>
 
@@ -165,23 +166,36 @@
     <div class="carousel-inner" role="listbox">
 
         <div class="item">
-            <div style="background:url(/documents/img/Anthr_Lf_Blt_3.jpg) center center; background-size:cover;" class="slider-size">
+            <div style="background:url(/documents/img/nelsonlab/inoculating.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
                     <a href="http://www.plantpath.cornell.edu/labs/nelson_r/index.html" target="_blank">
                         <h3>NelsonLab Database</h3>
-                        <p>Information</p>
+                        <p>Lab Website</p>
                     </a>
                 </div>
             </div>
         </div>
 
-
-
         <div class="item">
-            <div style="background:url(/documents/img/Stewart_wilt1.jpg) center center; background-size:cover;" class="slider-size">
+            <div style="background:url(/documents/img/nelsonlab/gls.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
                     <h3><a href="/breeders/manage_programs/"> Breeding Programs</a></h3>
                     <p><a href="/breeders/trials/" target="_blank">Search, retrieve, save breeding trials</a></p>
+                </div>
+                <div class="carousel-sgn-links">
+                    <ul>
+                        <li><a href="/breeders/search">Search accessions and trials</a></li>
+                        <li><a href="/fieldbook">Fieldbook App & uploading</a></li>
+                        <li><a href="/tools/onto/">Trait Ontology</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div style="background:url(/documents/img/nelsonlab/nlb.JPG) center center; background-size:cover;" class="slider-size">
+                <div class="carousel-sgn-caption">
+                    <h3><a href="/breeders/seedlots/"> Manage Seed Inventory</a></h3>
                 </div>
                 <div class="carousel-sgn-links">
                     <ul>
