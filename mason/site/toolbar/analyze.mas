@@ -2,11 +2,11 @@
 <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genomes<span class="caret"></span></a> -->
   <ul class="dropdown-menu">
     <li><a href="/tools/expression_atlas">Expression Atlas</a></li>
-    <li><a href="http://ptools-cassbase.sgn.cornell.edu/MES/organism-summary">Mesculenta Cyc</a></li>
+    <!--li><a href="http://ptools-cassbase.sgn.cornell.edu/MES/organism-summary">Mesculenta Cyc</a></li-->
     <li><a href="/barcode">Barcode Tools</a></li>
     <!--li><a href="/solgs/search">Genomic Selection</a></li-->
     <li><a href="/tools/trial/comparison/list">Trial Comparison</a></li>
-    <li><a href="/pca/analysis">Population Structure</a></li>
+    <!--li><a href="/pca/analysis">Population Structure</a></li-->
 
     <li role="separator" class="divider"></li>
     <li class="dropdown-header">Sequence Analysis</li>
