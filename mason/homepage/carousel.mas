@@ -117,24 +117,24 @@
     
     
     
-    var $item = $('.carousel .item');
-    var $wHeight = $(window).height();
+    var $item = jQuery('.carousel .item');
+    var $wHeight = jQuery(window).height();
 
-    var $numberofSlides = $('.item').length;
+    var $numberofSlides = jQuery('.item').length;
     var $currentSlide = Math.floor((Math.random() * $numberofSlides));
 
-    $('.carousel-indicators li').each(function(){
-      var $slideValue = $(this).attr('data-slide-to');
+    jQuery('.carousel-indicators li').each(function(){
+      var $slideValue = jQuery(this).attr('data-slide-to');
       if($currentSlide == $slideValue) {
-        $(this).addClass('active');
+        jQuery(this).addClass('active');
         $item.eq($slideValue).addClass('active');
       } else {
-        $(this).removeClass('active');
+        jQuery(this).removeClass('active');
         $item.eq($slideValue).removeClass('active');
       }
     }); 
 
-    $('.carousel').carousel({
+    jQuery('.carousel').carousel({
       interval: 20000,
       wrap: "true",
       pause: "false"
@@ -148,8 +148,8 @@
     //      $("#myCarousel").carousel('next');  
     //   });  
        
-       $(".ui-loading").css("display","none");
-       $(".ui-loader").css("display","none");
+       jQuery(".ui-loading").css("display","none");
+       jQuery(".ui-loader").css("display","none");
   });
 </script>
 

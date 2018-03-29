@@ -22,12 +22,12 @@ All data deposited on CASSbase adheres to the Toronto Agreement on prepublicatio
 
 <script>
 
-  $('#usage_policy_agree_submit').click( function () {
+  jQuery('#usage_policy_agree_submit').click( function () {
      jQuery.cookie("website_usage_policy_approved", "1", { expires: 10000 } );
-     $('#usage_policy').modal("hide");
+     jQuery('#usage_policy').modal("hide");
   });
 
-  $('#usage_policy_disagree_submit').click( function () {
+  jQuery('#usage_policy_disagree_submit').click( function () {
      document.location.href="http://www.biochemie.nat.uni-erlangen.de/Cassava/index.html";
   });
 
@@ -43,12 +43,12 @@ All data deposited on CASSbase adheres to the Toronto Agreement on prepublicatio
     if (cookie == undefined) {
     //  alert("showing!");
 
-      $('#usage_policy').modal("show");
+      jQuery('#usage_policy').modal("show");
   //alert("Done!");
     }
     else {
       //alert("Hiding!");
-      $('#usage_policy').modal("hide");
+      jQuery('#usage_policy').modal("hide");
 
     }
   }

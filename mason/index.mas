@@ -3,6 +3,11 @@ $schema
 $static_content_path => undef
 $show_accept_dialog => undef
 $phenotype_files => undef
+$breeding_programs => undef
+$locations => undef
+$preferred_species => undef
+$editable_stock_props => {}
+$timestamp
 </%args>
 
 <center>
@@ -13,6 +18,8 @@ $phenotype_files => undef
 
 
 <div class="container-fluid">
+    <& /help/workflow_guided/begin.mas, breeding_programs=>$breeding_programs, locations=>$locations, preferred_species=>$preferred_species, editable_stock_props=>$editable_stock_props, timestamp=>$timestamp &>
+
   <center>
     <& homepage/usage_popup.mas &>
   </center>
