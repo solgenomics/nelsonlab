@@ -168,7 +168,7 @@
         <div class="item">
             <div style="background:url(/documents/img/nelsonlab/inoculating.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
-                    <a href="http://www.plantpath.cornell.edu/labs/nelson_r/index.html" target="_blank">
+                    <a href="http://blogs.cornell.edu/maizedisease/" target="_blank">
                         <h3>NelsonLab Database</h3>
                         <p>Lab Website</p>
                     </a>
@@ -179,7 +179,6 @@
         <div class="item">
             <div style="background:url(/documents/img/nelsonlab/gls.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
-                    <h3><a href="/breeders/manage_programs/"> Breeding Programs</a></h3>
                     <p><a href="/breeders/trials/" target="_blank">Search, retrieve, save breeding trials</a></p>
                 </div>
                 <div class="carousel-sgn-links">
@@ -199,9 +198,7 @@
                 </div>
                 <div class="carousel-sgn-links">
                     <ul>
-                        <li><a href="/breeders/search">Search accessions and trials</a></li>
-                        <li><a href="/fieldbook">Fieldbook App & uploading</a></li>
-                        <li><a href="/tools/onto/">Trait Ontology</a></li>
+                        <li><a href="/breeders/crosses">Add and manage crosses</a></li>
                     </ul>
                 </div>
             </div>
