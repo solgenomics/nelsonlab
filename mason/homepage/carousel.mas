@@ -179,7 +179,9 @@
         <div class="item">
             <div style="background:url(/documents/img/nelsonlab/gls.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
-                    <p><a href="/breeders/trials/" target="_blank">Search, retrieve, save breeding trials</a></p>
+                    <a href="/breeders/trials/" target="_blank">
+                        <h3>Search, retrieve, save breeding trials</h3>
+                    </a>
                 </div>
                 <div class="carousel-sgn-links">
                     <ul>
@@ -194,7 +196,9 @@
         <div class="item">
             <div style="background:url(/documents/img/nelsonlab/nlb.JPG) center center; background-size:cover;" class="slider-size">
                 <div class="carousel-sgn-caption">
-                    <h3><a href="/breeders/seedlots/"> Manage Seed Inventory</a></h3>
+                    <a href="/breeders/seedlots/">
+                        <h3>Manage Seed Inventory</h3>
+                    </a>
                 </div>
                 <div class="carousel-sgn-links">
                     <ul>
