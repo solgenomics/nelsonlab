@@ -1,4 +1,4 @@
-<& "/page/page_title.mas", title => "Cassavabase: Frequently Asked Questions (FAQ)" &>
+<& "/page/page_title.mas", title => "Nelsonlab: Frequently Asked Questions (FAQ)" &>
 <table summary="" width="720" cellpadding="0" cellspacing="0"
   border="0">
     <tr>
@@ -8,14 +8,12 @@
           cellspacing="0" border="0">
             <tr>
               <td>
-                This page contains questions that Cassavabase users ask and
-                are useful to the larger cassava community. Please
-                <a href="mailto:sgn-feedback\@sgn.cornell.edu">let
-                us know</a> if you have a question that you think
-                should be added.
+                This page contains questions that Nelsonlab users ask and
+                are useful to the larger community. Please
+                send questions to <a href="/contact/form">Contact Form</a>.
 
 
-                <p><strong>Question:</strong> The CassavaBase pages look really
+                <p><strong>Question:</strong> The Nelsonlab pages look really
                 messed up on my browser.<br />
                 <strong>Answer:</strong> You are working with an old browser
                 that does not support style sheets, such as the
@@ -25,8 +23,7 @@
 
                 <p><strong>Question:</strong> Can I submit my data to
                 CassavaBase?<br />
-                <strong>Answer:</strong> Please send an email to <a href=
-                "mailto:sgn-feedback\@sgn.cornell.edu">sgn-feedback@sgn.cornell.edu</a>
+                <strong>Answer:</strong> Please send a message to <a href="/contact/form">Contact Form</a>
                 with a description of the data you would like to
                 submit. We will then work with you to integrate
                 your data into the database and/or add it to the
