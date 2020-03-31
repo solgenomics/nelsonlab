@@ -1,0 +1,767 @@
+format-version: 1.2
+ontology: NelsonLab_ontology
+default-namespace: NelsonLab_ontology
+
+[Term]
+id: NL:0000000
+name: NelsonLab
+
+[Term]
+id: NL:0000001
+name: Field Traits
+is_a: NL:0000000
+
+[Term]
+id: NL:0000002
+name: af.ppb
+def: "Aflatoxin ppb" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000003
+name: afl.ksp
+def: "Percent of kernel covered by A. flavus sporulation" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000004
+name: afl.sic
+def: "Aspergillus flavus silk infection coefficient. A. flavus DNA/ total DNA on silks. Dimensionless" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000005
+name: afl.sif
+def: "Aspergillus flavus silk infection frequency. Percent of silks with A. flavus sporulation." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000006
+name: afl.slp
+def: "Aspergillus flavus silk latent period. Number of days from A. flavus inoculation to sporulation on silks." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000007
+name: afl.ssp
+def: "Aspergillus flavus silk sporulation. 1-5 rating of sporulation on 10 silks." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000008
+name: builk.density
+def: "g/mL" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000009
+name: dis.not
+def: "Disease notes." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000010
+name: dys.ath
+def: "Days to anthesis. Number of days from planting to anthesis." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000011
+name: ear.hgt
+def: "Ear height. Distance in cm between ground and primary ear." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000012
+name: ear.length
+def: "Ear length. Length of ear in cm." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000013
+name: fum.ppb
+def: "Fumonisin concentration in ppb measured by Helica fumonisin ELISA kits." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000014
+name: fum.ert
+def: "Percentage of the ear presenting Fusarium ear rot symptoms on a 0-100% sclae with 5% increments. Measurement is the average of all ears in a given row." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000015
+name: fum.ert.symptom
+def: "Each plot is assigned a main symptom type based on the most common symptom(s) on the ears. B=blush; S=starburst; P=purple; M=moldy; A=plots with <10% avg. ear rot" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000016
+name: gls.ds5
+def: "Grey leaf spot: 1-5 scale. 1=dead to 5=resistant" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000017
+name: gls.ds9
+def: "Grey leaf spot: 1-9 scale. 1=dead to 9=resistant" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000018
+name: gls.red
+def: "Grey leaf spot red restriction/ red margin. 1-3 score of legion margin." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000019
+name: gls.thn
+def: "Grey leaf spot thin lesion. 1-4 where 1=thin, 2=restricted, and 4=normal lesion margin" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000020
+name: juv.plt
+def: "Juvenile plant type" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000021
+name: nlb.clr
+def: "Northern lead blight NLB lesion color. 1-10 from 1=light to 10=dark" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000022
+name: nlb.ds1
+def: "Percent Northern leaf blight NLB diseased leaf area DLA from 1-100 by 1" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000023
+name: nlb.ds2
+def: "Percent Northern leaf blight NLB diseased leaf area DLA from 1-100 by 2" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000024
+name: nlb.ds5
+def: "Percent Northern leaf blight NLB diseased leaf area DLA from 1-100 by 5" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000025
+name: nlb.ds9
+def: "Northern leaf blight NLB score 1-9. 1=resistant to 9=dead" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000026
+name: nlb.flk
+def: "Northern leaf blight NLB flecking. 0-10 from 0=none to 10=heavy flecking, and LM=lesion mimic" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000027
+name: nlb.ipd
+def: "Northern leaf blight NLB inoculation period. Number of days from inoculation to appearance of lesions." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000028
+name: nlb.mcb
+def: "Northern leaf blight NLB lesion margin color (brown). 1-10 from 1=light to 10=dark brown" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000029
+name: nlb.mcp
+def: "Northern leaf blight NLB lesion margin color (purple). 1-10 from 1=light to 10=dark purple" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000030
+name: nlb.shp
+def: "Northern leaf blight NLB lesion shape." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000031
+name: pericarp.thickness
+def: "Average pericarp thickness of 15 kernels measured in micrometers." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000032
+name: pln.dat
+def: "Date plant was pollinated. YYYY/MM/DD" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000033
+name: plt.hgt
+def: "Plant height in cm." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000034
+name: row.qlt
+def: "Row quality. 1-5 from 1=low to 5=high quality row data" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000035
+name: rst.ds5
+def: "Common rust scale. 1-10 scale by 0.5" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000036
+name: rst.ds9
+def: "Common rust scale. 1-9 scale" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000037
+name: slb.ds9
+def: "Southern leaf blight. 1-9 scale" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000038
+name: slk.dat
+def: "Date of silking. YYYY/MM/DD" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000039
+name: smt.inc
+def: "Smut incidence. Number of plants infected with smut." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000040
+name: smt.plt
+def: "Smut plant number. Number of plants in row scored for smut." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000041
+name: smt.svt
+def: "Smut severity. 1-10 scale from 1=small to 10=large gall" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000042
+name: std.cnt
+def: "Stand count. Number of plants in row." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000043
+name: stw.pct
+def: "Stewart's wilt. Percent diseased leaf area from 1-100 by 5" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000044
+name: tsl.dat
+def: "Tassel date. Date of anthesis. YYYY/MM/DD" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000045
+name: root.lodging
+def: "Number of plants in a plot with root lodging." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000046
+name: stalk.lodging
+def: "Number of plants in a plot with stalk lodging." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000047
+name: grain.moisture
+def: "Grain moisture percent" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000048
+name: plt.weight.lbs
+def: "Plot weight in lbs." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000049
+name: plt.discarded
+def: "Whether to disregard this plot in analysis. 1 indicates yes." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000050
+name: raccoon.damage.1
+def: "Score for damage caused from raccoons in percent. 1 to 100 in 1" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000051
+name: lig.percent.DM
+def: "Score for lignin dry matter in percent" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000052
+name: rpr.lbf
+def: "Rind penetrometer resistance. lbf" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000053
+name: rpr.kg
+def: "Rind penetrometer resistance. kg" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000054
+name: tsl.branch.number
+def: "Number of primary branches per plant." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000055
+name: tsl.length.cm
+def: "Length of tassel per plant in cm." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000056
+name: dys.slk
+def: "Number of days to silking." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000056
+name: dys.slk
+def: "Number of days to silking." []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000057
+name: morphological
+def: "" []
+is_a: NL:0000001
+
+[Term]
+id: NL:0000058
+name: cob.den
+def: "Cob density (g/ml). Cob density = cob weight/(pi*cob length*(cob diameter/2)^2)" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000059
+name: cob.diam
+def: "Diameter at mid-point of cob (cm). Measured with ruler or calipers" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000060
+name: cob.length
+def: "Length of cob from base to tip (cm). Measured with ruler" []
+xref: CO_322:0000015 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000061
+name: cob.vol
+def: "Cob volume (cm^3). Cob volume = pi*cob length*(cob diameter/2)^2" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000062
+name: ern
+def: "Ear row number. Split cob in half and then count number of kernels around circumference." []
+xref: CO_322:0000221 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000063
+name: asi
+def: "Anthesis-silking interval (days). Days to anthesis minus days to silking" []
+xref: CO_322:0000001 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000064
+name: kernel.type
+def: "Kernel endosperm type (0=dent, 1=flint). Visual score based on the extent of obvious denting on kernel crown" []
+xref: CO_322:0000168 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000065
+name: kernel.oil
+def: "Kernel oil content (% dry matter). Measured with NIR" []
+xref: CO_322:0000533 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000066
+name: kernel.protein
+def: "Kernel protein content (% dry matter). Measured with NIR" []
+xref: CO_322:0000122 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000067
+name: kernel.starch
+def: "Kernel starch content (% dry matter). Measured with NIR" []
+xref: CO_322:0000126 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000068
+name: leaf.length
+def: "Leaf length (cm). Distance from the base to the tip of the leaf below the primary ear at or near flowering time." []
+xref: CO_322:0000025 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000069
+name: leaf.width
+def: "Leaf width (cm). Width of the widest section of the leaf below the primary ear at or near flowering time" []
+xref: CO_322:0000026 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000070
+name: mla
+def: "Middle leaf angle (degrees). Angle between the horizontal and the midrib of the first leaf below the first ear (0=widest, 90=most upright)." []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000071
+name: ula
+def: "Upper leaf angle (degrees). Angle between the horizontal and the midrib of the first leaf below the flag leaf (0=widest, 90=most upright)." []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000072
+name: tillering.index
+def: "Tillering index. Number of tillers per plant" []
+xref: CO_322:0000059 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000073
+name: tsl.spike.length
+def: "Tassel spike length (cm). Length from the main spike above highest tassel branch" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000074
+name: germ.cnt
+def: "Germination count. Number of germinated seeds" []
+xref: CO_322:0000540 "Crop Ontology"
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000075
+name: bik
+def: "Bikaverin (ppm). Measured by absorbance of extract at 518 nm" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000076
+name: cob.mass
+def: "Cob mass (g). " []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000077
+name: tsl.branch.zone
+def: "Tassel branch zone (cm). Tassel length - spike length" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000078
+name: nph
+def: "Nodes per height. Number of nodes between the top brace root node and the flag leaf" []
+relationship: variable_of NL:0000057
+
+[Term]
+id: NL:0000079
+name: biotic stress
+def: "" []
+is_a: NL:0000001
+
+[Term]
+id: NL:0000080
+name: gls.audpc
+def: "Gray leaf spot (GLS) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more GLS scores" []
+relationship: variable_of NL:0000079
+
+[Term]
+id: NL:0000081
+name: nlb.audpc
+def: "Northern leaf blight (NLB) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more NLB scores" []
+relationship: variable_of NL:0000079
+
+[Term]
+id: NL:0000082
+name: grain.yield.kg
+def: "Shelled grain weight (kg). Shelled, dried grain weight (kg)" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000083
+name: field.weight.kg
+def: "Unshelled field weight (kg). Unshelled grain weight at field harvest (kg)" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000084
+name: ear.rot
+def: "Ear rot (%). Visual score of ear rot (causal pathogen unknown) based on percentage of kernels exhibiting symptoms" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000085
+name: kernel.size
+def: "Kernel size (1=small, 2=medium, 3=large). Visual score of kernel length based on 1-cm square sieve (small<1 cm, medium=approx. 1 cm, large>1 cm)" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000086
+name: kernel.texture
+def: "Kernel texture (1=flint; 2=semi-flint; 3=semi-dent; 4=dent). Visual score" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000087
+name: grain.moisture.index
+def: "Grain moisture after drying (%). Grain moisture after drying in oven overnight" []
+relationship: variable_of NL:0000001
+
+[Term]
+id: NL:0000088
+name: computed
+def: "" []
+is_a: NL:0000001
+
+[Term]
+id: NL:0000089
+name: nlb.282.rank
+def: "Northern leaf blight (NLB) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000090
+name: gls.282.rank
+def: "Gray leaf spot (GLS) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000091
+name: slb.282.rank
+def: "Southern leaf blight (SLB) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000092
+name: slb.audpc
+def: "Southern leaf blight (SLB) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more SLB scores" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000093
+name: asi.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for anthesis-silking interval (ASI)." []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000094
+name: bulk.density.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel bulk density" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000095
+name: cob.den.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob density" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000096
+name: cob.diam.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob diameter" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000097
+name: cob.length.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob length" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000098
+name: cob.vol.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob volume" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000099
+name: dys.ath.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for days to anthesis" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000100
+name: dys.slk.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for days to silking" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000101
+name: ear.hgt.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for ear height" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000102
+name: ern.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for ear row number (ERN)" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000103
+name: fum.ert.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for Fusarium ear rot" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000104
+name: germ.cnt.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for germination count" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000105
+name: gls.audpc.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for gray leaf spot (GLS) area under the disease progress curve (AUDPC)" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000106
+name: kernel.oil.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel oil content" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000107
+name: kernel.protein.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel protein content" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000108
+name: kernel.starch.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel starch content" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000109
+name: kernel.type.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel type" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000110
+name: leaf.length.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for leaf length" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000111
+name: leaf.width.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for leaf width" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000112
+name: mla.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for middle leaf angle (MLA)" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000113
+name: nlb.ds1.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for northern leaf blight (NLB) diseased leaf area (DLA) scored from 1-100% by 1%" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000114
+name: nph.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for nodes per height (NPH)" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000115
+name: plt.hgt.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for plant height" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000116
+name: rpr.lbf.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for rind penetrometer resistance" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000117
+name: slb.ds9.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for southern leaf blight (SLB) scored on a 1-9 scale (1=most susceptible, 9=most resistant)" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000118
+name: std.cnt.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for stand count" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000119
+name: tillering.index.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tillering index" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000120
+name: tsl.branch.number.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel branch number" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000121
+name: tsl.branch.zone.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel branch zone" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000122
+name: tsl.length.cm.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel length" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000123
+name: tsl.spike.length.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel spike length" []
+relationship: variable_of NL:0000088
+
+[Term]
+id: NL:0000124
+name: ula.blup
+def: "Multi-environment genetic best linear unbiased predictor (BLUP) for upper leaf angle (ULA)" []
+relationship: variable_of NL:0000088
