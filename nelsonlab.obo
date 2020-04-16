@@ -95,24 +95,28 @@ id: NL:0000016
 name: gls.ds5
 def: "Grey leaf spot: 1-5 scale. 1=dead to 5=resistant" []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000017
 name: gls.ds9
 def: "Grey leaf spot: 1-9 scale. 1=dead to 9=resistant" []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000018
 name: gls.red
 def: "Grey leaf spot red restriction/ red margin. 1-3 score of legion margin." []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000019
 name: gls.thn
 def: "Grey leaf spot thin lesion. 1-4 where 1=thin, 2=restricted, and 4=normal lesion margin" []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000020
@@ -478,6 +482,7 @@ id: NL:0000080
 name: gls.audpc
 def: "Gray leaf spot (GLS) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more GLS scores" []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000081
@@ -532,6 +537,7 @@ id: NL:0000090
 name: gls.282.rank
 def: "Gray leaf spot (GLS) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000213 ! GLS
 
 [Term]
 id: NL:0000091
@@ -550,6 +556,8 @@ id: NL:0000093
 name: asi.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for anthesis-silking interval (ASI)." []
 is_a: NL:0000200 ! Variables
+is_a: NL:0000205 ! agronomic
+is_a: NL:0000215 ! blup
 
 [Term]
 id: NL:0000094
@@ -750,4 +758,63 @@ is_a: NL:0000000 ! NelsonLab
 id: NL:0000204
 name: Maize
 is_a: NL:0000000 ! NelsonLab
+
+[Term]
+id: NL:0000205
+name: agronomic
+is_a: NL:0000204 ! Maize
+
+[Term]
+id: NL:0000206
+name: disease
+is_a: NL:0000204 ! Maize
+
+[Term]
+id: NL:0000207
+name: postharvest
+is_a: NL:0000204 ! Maize
+
+[Term]
+id: NL:0000208
+name: NLB
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000209
+name: FER
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000210
+name: smut
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000211
+name: SLB
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000212
+name: AER
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000213
+name: GLS
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000214
+name: Properties
+
+[Term]
+id: NL:0000215
+name: blup
+is_a: NL:0000214 ! Properties
+
+[Term]
+id: NL:0000216
+name: phytomorph
+is_a: NL:0000214 ! Properties
 
