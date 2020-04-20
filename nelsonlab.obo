@@ -95,28 +95,28 @@ id: NL:0000016
 name: gls.ds5
 def: "Grey leaf spot: 1-5 scale. 1=dead to 5=resistant" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000017
 name: gls.ds9
 def: "Grey leaf spot: 1-9 scale. 1=dead to 9=resistant" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000018
 name: gls.red
 def: "Grey leaf spot red restriction/ red margin. 1-3 score of legion margin." []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000019
 name: gls.thn
 def: "Grey leaf spot thin lesion. 1-4 where 1=thin, 2=restricted, and 4=normal lesion margin" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000020
@@ -482,7 +482,7 @@ id: NL:0000080
 name: gls.audpc
 def: "Gray leaf spot (GLS) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more GLS scores" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000081
@@ -537,7 +537,7 @@ id: NL:0000090
 name: gls.282.rank
 def: "Gray leaf spot (GLS) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000091
@@ -630,7 +630,7 @@ id: NL:0000105
 name: gls.audpc.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for gray leaf spot (GLS) area under the disease progress curve (AUDPC)" []
 is_a: NL:0000200 ! Variables
-relationship: NL:0000217 NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! variable_of GLS
 
 [Term]
 id: NL:0000106
@@ -820,10 +820,10 @@ name: phytomorph
 is_a: NL:0000214 ! Properties
 
 [Typedef]
-id: NL:0000217
+id: variable_of
 name: variable_of
 
 [Typedef]
-id: NL:0000218
+id: property_of
 name: property_of
 
