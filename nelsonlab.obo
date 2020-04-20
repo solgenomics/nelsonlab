@@ -749,6 +749,7 @@ is_a: NL:0000200 ! Variables
 [Term]
 id: NL:0000200
 name: Variables
+is_a: NL:0000000
 
 [Term]
 id: NL:0000203
@@ -808,6 +809,7 @@ is_a: NL:0000206 ! disease
 [Term]
 id: NL:0000214
 name: Properties
+is_a: NL:0000000
 
 [Term]
 id: NL:0000215
