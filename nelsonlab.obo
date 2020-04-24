@@ -11,42 +11,49 @@ id: NL:0000002
 name: af.ppb
 def: "Aflatoxin ppb" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000220 ! aflatoxin
 
 [Term]
 id: NL:0000003
 name: afl.ksp
 def: "Percent of kernel covered by A. flavus sporulation" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000212 ! AER
 
 [Term]
 id: NL:0000004
 name: afl.sic
 def: "Aspergillus flavus silk infection coefficient. A. flavus DNA/ total DNA on silks. Dimensionless" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000212 ! AER
 
 [Term]
 id: NL:0000005
 name: afl.sif
 def: "Aspergillus flavus silk infection frequency. Percent of silks with A. flavus sporulation." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000212 ! AER
 
 [Term]
 id: NL:0000006
 name: afl.slp
 def: "Aspergillus flavus silk latent period. Number of days from A. flavus inoculation to sporulation on silks." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000212 ! AER
 
 [Term]
 id: NL:0000007
 name: afl.ssp
 def: "Aspergillus flavus silk sporulation. 1-5 rating of sporulation on 10 silks." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000212 ! AER
 
 [Term]
 id: NL:0000008
-name: builk.density
+name: bulk.density
 def: "g/mL" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000009
@@ -59,64 +66,70 @@ id: NL:0000010
 name: dys.ath
 def: "Days to anthesis. Number of days from planting to anthesis." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000011
 name: ear.hgt
 def: "Ear height. Distance in cm between ground and primary ear." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000012
 name: ear.length
 def: "Ear length. Length of ear in cm." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000013
 name: fum.ppb
 def: "Fumonisin concentration in ppb measured by Helica fumonisin ELISA kits." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000221 ! fumonisin
 
 [Term]
 id: NL:0000014
 name: fum.ert
 def: "Percentage of the ear presenting Fusarium ear rot symptoms on a 0-100% sclae with 5% increments. Measurement is the average of all ears in a given row." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000209 ! FER
 
 [Term]
 id: NL:0000015
 name: fum.ert.symptom
 def: "Each plot is assigned a main symptom type based on the most common symptom(s) on the ears. B=blush; S=starburst; P=purple; M=moldy; A=plots with <10% avg. ear rot" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000209 ! FER
 
 [Term]
 id: NL:0000016
 name: gls.ds5
 def: "Grey leaf spot: 1-5 scale. 1=dead to 5=resistant" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000017
 name: gls.ds9
 def: "Grey leaf spot: 1-9 scale. 1=dead to 9=resistant" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000018
 name: gls.red
 def: "Grey leaf spot red restriction/ red margin. 1-3 score of legion margin." []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000019
 name: gls.thn
 def: "Grey leaf spot thin lesion. 1-4 where 1=thin, 2=restricted, and 4=normal lesion margin" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000020
@@ -129,6 +142,7 @@ id: NL:0000021
 name: nlb.clr
 def: "Northern lead blight NLB lesion color. 1-10 from 1=light to 10=dark" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000022
@@ -147,66 +161,77 @@ id: NL:0000024
 name: nlb.ds5
 def: "Percent Northern leaf blight NLB diseased leaf area DLA from 1-100 by 5" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000025
 name: nlb.ds9
 def: "Northern leaf blight NLB score 1-9. 1=resistant to 9=dead" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000026
 name: nlb.flk
 def: "Northern leaf blight NLB flecking. 0-10 from 0=none to 10=heavy flecking, and LM=lesion mimic" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000027
 name: nlb.ipd
 def: "Northern leaf blight NLB inoculation period. Number of days from inoculation to appearance of lesions." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000028
 name: nlb.mcb
 def: "Northern leaf blight NLB lesion margin color (brown). 1-10 from 1=light to 10=dark brown" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000029
 name: nlb.mcp
 def: "Northern leaf blight NLB lesion margin color (purple). 1-10 from 1=light to 10=dark purple" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000030
 name: nlb.shp
 def: "Northern leaf blight NLB lesion shape." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000031
 name: pericarp.thickness
 def: "Average pericarp thickness of 15 kernels measured in micrometers." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000032
 name: pln.dat
 def: "Date plant was pollinated. YYYY/MM/DD" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000033
 name: plt.hgt
 def: "Plant height in cm." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000034
 name: row.qlt
 def: "Row quality. 1-5 from 1=low to 5=high quality row data" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000000 ! NelsonLab
 
 [Term]
 id: NL:0000035
@@ -219,18 +244,21 @@ id: NL:0000036
 name: rst.ds9
 def: "Common rust scale. 1-9 scale" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000232 ! Rust
 
 [Term]
 id: NL:0000037
 name: slb.ds9
 def: "Southern leaf blight. 1-9 scale" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000211 ! SLB
 
 [Term]
 id: NL:0000038
 name: slk.dat
 def: "Date of silking. YYYY/MM/DD" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000039
@@ -255,102 +283,119 @@ id: NL:0000042
 name: std.cnt
 def: "Stand count. Number of plants in row." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000043
 name: stw.pct
 def: "Stewart's wilt. Percent diseased leaf area from 1-100 by 5" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000233 ! StewartsWilt
 
 [Term]
 id: NL:0000044
 name: tsl.dat
 def: "Tassel date. Date of anthesis. YYYY/MM/DD" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000045
 name: root.lodging
 def: "Number of plants in a plot with root lodging." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000046
 name: stalk.lodging
 def: "Number of plants in a plot with stalk lodging." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000047
 name: grain.moisture
 def: "Grain moisture percent" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000048
 name: plt.weight.lbs
 def: "Plot weight in lbs." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000049
 name: plt.discarded
 def: "Whether to disregard this plot in analysis. 1 indicates yes." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000000 ! NelsonLab
 
 [Term]
 id: NL:0000050
 name: raccoon.damage.1
 def: "Score for damage caused from raccoons in percent. 1 to 100 in 1" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000051
 name: lig.percent.DM
 def: "Score for lignin dry matter in percent" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000052
 name: rpr.lbf
 def: "Rind penetrometer resistance. lbf" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000053
 name: rpr.kg
 def: "Rind penetrometer resistance. kg" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000054
 name: tsl.branch.number
 def: "Number of primary branches per plant." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000055
 name: tsl.length.cm
 def: "Length of tassel per plant in cm." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000056
 name: dys.slk
 def: "Number of days to silking." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000058
 name: cob.den
 def: "Cob density (g/ml). Cob density = cob weight/(pi*cob length*(cob diameter/2)^2)" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000059
 name: cob.diam
 def: "Diameter at mid-point of cob (cm). Measured with ruler or calipers" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000060
@@ -358,12 +403,14 @@ name: cob.length
 def: "Length of cob from base to tip (cm). Measured with ruler" []
 xref: CO_322:0000015 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000061
 name: cob.vol
 def: "Cob volume (cm^3). Cob volume = pi*cob length*(cob diameter/2)^2" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000062
@@ -371,6 +418,7 @@ name: ern
 def: "Ear row number. Split cob in half and then count number of kernels around circumference." []
 xref: CO_322:0000221 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000063
@@ -378,6 +426,7 @@ name: asi
 def: "Anthesis-silking interval (days). Days to anthesis minus days to silking" []
 xref: CO_322:0000001 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000064
@@ -392,6 +441,7 @@ name: kernel.oil
 def: "Kernel oil content (% dry matter). Measured with NIR" []
 xref: CO_322:0000533 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000066
@@ -399,6 +449,7 @@ name: kernel.protein
 def: "Kernel protein content (% dry matter). Measured with NIR" []
 xref: CO_322:0000122 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000067
@@ -406,6 +457,7 @@ name: kernel.starch
 def: "Kernel starch content (% dry matter). Measured with NIR" []
 xref: CO_322:0000126 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000068
@@ -413,6 +465,7 @@ name: leaf.length
 def: "Leaf length (cm). Distance from the base to the tip of the leaf below the primary ear at or near flowering time." []
 xref: CO_322:0000025 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000069
@@ -420,18 +473,21 @@ name: leaf.width
 def: "Leaf width (cm). Width of the widest section of the leaf below the primary ear at or near flowering time" []
 xref: CO_322:0000026 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000070
 name: mla
 def: "Middle leaf angle (degrees). Angle between the horizontal and the midrib of the first leaf below the first ear (0=widest, 90=most upright)." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000071
 name: ula
 def: "Upper leaf angle (degrees). Angle between the horizontal and the midrib of the first leaf below the flag leaf (0=widest, 90=most upright)." []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000072
@@ -439,12 +495,14 @@ name: tillering.index
 def: "Tillering index. Number of tillers per plant" []
 xref: CO_322:0000059 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000073
 name: tsl.spike.length
 def: "Tassel spike length (cm). Length from the main spike above highest tassel branch" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000074
@@ -452,160 +510,192 @@ name: germ.cnt
 def: "Germination count. Number of germinated seeds" []
 xref: CO_322:0000540 "Crop Ontology"
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000075
 name: bik
 def: "Bikaverin (ppm). Measured by absorbance of extract at 518 nm" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000209 ! FER
 
 [Term]
 id: NL:0000076
 name: cob.mass
 def: "Cob mass (g). " []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000077
 name: tsl.branch.zone
 def: "Tassel branch zone (cm). Tassel length - spike length" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000078
 name: nph
 def: "Nodes per height. Number of nodes between the top brace root node and the flag leaf" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000080
 name: gls.audpc
 def: "Gray leaf spot (GLS) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more GLS scores" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000081
 name: nlb.audpc
 def: "Northern leaf blight (NLB) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more NLB scores" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000082
 name: grain.yield.kg
 def: "Shelled grain weight (kg). Shelled, dried grain weight (kg)" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000083
 name: field.weight.kg
 def: "Unshelled field weight (kg). Unshelled grain weight at field harvest (kg)" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000084
 name: ear.rot
 def: "Ear rot (%). Visual score of ear rot (causal pathogen unknown) based on percentage of kernels exhibiting symptoms" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000227 ! EarRot
 
 [Term]
 id: NL:0000085
 name: kernel.size
 def: "Kernel size (1=small, 2=medium, 3=large). Visual score of kernel length based on 1-cm square sieve (small<1 cm, medium=approx. 1 cm, large>1 cm)" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000086
 name: kernel.texture
 def: "Kernel texture (1=flint; 2=semi-flint; 3=semi-dent; 4=dent). Visual score" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000087
 name: grain.moisture.index
 def: "Grain moisture after drying (%). Grain moisture after drying in oven overnight" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000089
 name: nlb.282.rank
 def: "Northern leaf blight (NLB) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000090
 name: gls.282.rank
 def: "Gray leaf spot (GLS) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000091
 name: slb.282.rank
 def: "Southern leaf blight (SLB) breeding value rank in 282 Diversity Panel. Wisser et al. 2011 PNAS" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000211 ! SLB
 
 [Term]
 id: NL:0000092
 name: slb.audpc
 def: "Southern leaf blight (SLB) area under the disease progress curve (AUDPC). AUDPC calculated based on three or more SLB scores" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000211 ! SLB
 
 [Term]
 id: NL:0000093
 name: asi.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for anthesis-silking interval (ASI)." []
 is_a: NL:0000200 ! Variables
-is_a: NL:0000205 ! agronomic
-is_a: NL:0000215 ! blup
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000094
 name: bulk.density.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel bulk density" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000222 ! yield
 
 [Term]
 id: NL:0000095
 name: cob.den.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob density" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000096
 name: cob.diam.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob diameter" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000097
 name: cob.length.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob length" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000098
 name: cob.vol.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for cob volume" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000223 ! morphology
 
 [Term]
 id: NL:0000099
 name: dys.ath.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for days to anthesis" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000100
 name: dys.slk.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for days to silking" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000219 ! maturity
 
 [Term]
 id: NL:0000101
 name: ear.hgt.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for ear height" []
 is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000102
@@ -618,138 +708,180 @@ id: NL:0000103
 name: fum.ert.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for Fusarium ear rot" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000209 ! FER
 
 [Term]
 id: NL:0000104
 name: germ.cnt.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for germination count" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000105
 name: gls.audpc.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for gray leaf spot (GLS) area under the disease progress curve (AUDPC)" []
 is_a: NL:0000200 ! Variables
-relationship: variable_of NL:0000213 ! variable_of GLS
+relationship: variable_of NL:0000213 ! GLS
 
 [Term]
 id: NL:0000106
 name: kernel.oil.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel oil content" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000107
 name: kernel.protein.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel protein content" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000108
 name: kernel.starch.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel starch content" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000109
 name: kernel.type.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for kernel type" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000230 ! composition
 
 [Term]
 id: NL:0000110
 name: leaf.length.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for leaf length" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000111
 name: leaf.width.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for leaf width" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000112
 name: mla.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for middle leaf angle (MLA)" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000113
 name: nlb.ds1.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for northern leaf blight (NLB) diseased leaf area (DLA) scored from 1-100% by 1%" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000208 ! NLB
 
 [Term]
 id: NL:0000114
 name: nph.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for nodes per height (NPH)" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000115
 name: plt.hgt.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for plant height" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000224 ! height
 
 [Term]
 id: NL:0000116
 name: rpr.lbf.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for rind penetrometer resistance" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000117
 name: slb.ds9.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for southern leaf blight (SLB) scored on a 1-9 scale (1=most susceptible, 9=most resistant)" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000211 ! SLB
 
 [Term]
 id: NL:0000118
 name: std.cnt.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for stand count" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000119
 name: tillering.index.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tillering index" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000229 ! stand
 
 [Term]
 id: NL:0000120
 name: tsl.branch.number.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel branch number" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000121
 name: tsl.branch.zone.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel branch zone" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000122
 name: tsl.length.cm.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel length" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000123
 name: tsl.spike.length.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for tassel spike length" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000234 ! inflorescence
 
 [Term]
 id: NL:0000124
 name: ula.blup
 def: "Multi-environment genetic best linear unbiased predictor (BLUP) for upper leaf angle (ULA)" []
 is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000215 ! blup
+relationship: variable_of NL:0000231 ! leaf
 
 [Term]
 id: NL:0000200
 name: Variables
-is_a: NL:0000000
+is_a: NL:0000000 ! NelsonLab
 
 [Term]
 id: NL:0000203
@@ -809,7 +941,7 @@ is_a: NL:0000206 ! disease
 [Term]
 id: NL:0000214
 name: Properties
-is_a: NL:0000000
+is_a: NL:0000000 ! NelsonLab
 
 [Term]
 id: NL:0000215
@@ -821,11 +953,432 @@ id: NL:0000216
 name: phytomorph
 is_a: NL:0000214 ! Properties
 
-[Typedef]
-id: variable_of
-name: variable_of
+[Term]
+id: NL:0000219
+name: maturity
+is_a: NL:0000205 ! agronomic
+
+[Term]
+id: NL:0000220
+name: aflatoxin
+is_a: NL:0000212 ! AER
+
+[Term]
+id: NL:0000221
+name: fumonisin
+is_a: NL:0000209 ! FER
+
+[Term]
+id: NL:0000222
+name: yield
+is_a: NL:0000207 ! postharvest
+
+[Term]
+id: NL:0000223
+name: morphology
+is_a: NL:0000207 ! postharvest
+
+[Term]
+id: NL:0000224
+name: height
+is_a: NL:0000205 ! agronomic
+
+[Term]
+id: NL:0000227
+name: EarRot
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000229
+name: stand
+is_a: NL:0000205 ! agronomic
+
+[Term]
+id: NL:0000230
+name: composition
+is_a: NL:0000207 ! postharvest
+
+[Term]
+id: NL:0000231
+name: leaf
+is_a: NL:0000205 ! agronomic
+
+[Term]
+id: NL:0000232
+name: Rust
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000233
+name: StewartsWilt
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000234
+name: inflorescence
+is_a: NL:0000205 ! agronomic
+
+[Term]
+id: NL:0000236
+name: ALB
+is_a: NL:0000206 ! disease
+
+[Term]
+id: NL:0000237
+name: alb_audpc
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000236 ! ALB
+
+[Term]
+id: NL:0000238
+name: alb_dla
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000236 ! ALB
+
+[Term]
+id: NL:0000239
+name: cob_ave_width_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000240
+name: cob_color_1_r
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000241
+name: cob_color_2_g
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000242
+name: cob_color_3_b
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000243
+name: cob_length_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000244
+name: cob_max_width_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000245
+name: cob_pc1
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000246
+name: cob_pc2
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000247
+name: cob_pc3
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000248
+name: cob_surface_area_mm2
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000249
+name: cob_transect_area_mm2
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000250
+name: cob_volume_mm3
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000251
+name: EarPhenoPipeline
+is_a: NL:0000214 ! Properties
+
+[Term]
+id: NL:0000252
+name: ear_aer
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000212 ! AER
+
+[Term]
+id: NL:0000253
+name: ear_ave_width_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000254
+name: damage
+is_a: NL:0000207 ! postharvest
+
+[Term]
+id: NL:0000255
+name: ear_insect
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000254 ! damage
+
+[Term]
+id: NL:0000256
+name: ear_kernel_length_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000257
+name: ear_length_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000258
+name: ear_max_width_mm
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000259
+name: ear_no_seedset
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000254 ! damage
+
+[Term]
+id: NL:0000260
+name: ear_pc1
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000261
+name: ear_pc2
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000262
+name: ear_pc3
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000263
+name: ear_seed_shatter
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000254 ! damage
+
+[Term]
+id: NL:0000264
+name: ear_total_fill
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000254 ! damage
+
+[Term]
+id: NL:0000265
+name: kernel_af_ppb
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000220 ! aflatoxin
+
+[Term]
+id: NL:0000266
+name: kernel_area_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000267
+name: kernel_area_var
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000268
+name: kernel_major_ax_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000269
+name: kernel_minor_ax_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000223 ! morphology
+
+[Term]
+id: NL:0000270
+name: kernel_color_b_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000271
+name: kernel_color_g_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000272
+name: kernel_color_r_quartile
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000230 ! composition
+
+[Term]
+id: NL:0000273
+name: kernel_fum_ppm
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000221 ! fumonisin
+
+[Term]
+id: NL:0000274
+name: lodging_root_percent
+def: "Number of plants in a plot with root lodging." []
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
+
+[Term]
+id: NL:0000275
+name: lodging_stalk_percent
+def: "Number of plants in a plot with root lodging." []
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
+
+[Term]
+id: NL:0000276
+name: plot_germ_percent
+def: "Number of plants in a plot with root lodging." []
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
+
+[Term]
+id: NL:0000277
+name: smut_infected_percent
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000210 ! smut
+
+[Term]
+id: NL:0000278
+name: smut_severity_5
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000210 ! smut
+
+[Term]
+id: NL:0000279
+name: subset_kernels_mass_g
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000216 ! phytomorph
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000222 ! yield
+
+[Term]
+id: NL:0000280
+name: test_wt_combine
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000222 ! yield
+
+[Term]
+id: NL:0000281
+name: total_kernels_mass_g
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000222 ! yield
+
+[Term]
+id: NL:0000282
+name: total_kernels_vol_ml
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000222 ! yield
+
+[Term]
+id: NL:0000283
+name: wt_100_kernels_g
+is_a: NL:0000200 ! Variables
+relationship: property_of NL:0000251 ! EarPhenoPipeline
+relationship: variable_of NL:0000222 ! yield
+
+[Term]
+id: NL:0000284
+name: gls_dla
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000213 ! GLS
 
 [Typedef]
 id: property_of
 name: property_of
+
+[Typedef]
+id: variable_of
+name: variable_of
 
