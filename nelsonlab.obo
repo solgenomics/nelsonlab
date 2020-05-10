@@ -353,7 +353,7 @@ relationship: variable_of NL:0000223 ! morphology
 id: NL:0000060
 name: cob_length_manual_cm
 def: "Length of cob from base to tip (cm). Measured with ruler or calipers" []
-xref: CO_322:0000015 "Crop Ontology""
+xref: CO_322:0000015 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000223 ! morphology
 
@@ -368,7 +368,7 @@ relationship: variable_of NL:0000223 ! morphology
 id: NL:0000062
 name: ear_ern
 def: "Ear row number. Number of kernel rows around ear circumfrance." []
-xref: CO_322:0000221 "Crop Ontology""
+xref: CO_322:0000221 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000223 ! morphology
 
@@ -376,7 +376,7 @@ relationship: variable_of NL:0000223 ! morphology
 id: NL:0000063
 name: asi
 def: "Anthesis-silking interval (days). Days to anthesis minus days to silking" []
-xref: CO_322:0000001 "Crop Ontology""
+xref: CO_322:0000001 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000219 ! maturity
 
@@ -384,7 +384,7 @@ relationship: variable_of NL:0000219 ! maturity
 id: NL:0000065
 name: kernel_oil_nir
 def: "Kernel oil content (% dry matter). Measured with NIR" []
-xref: CO_322:0000533 "Crop Ontology""
+xref: CO_322:0000533 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000230 ! composition
 
@@ -392,7 +392,7 @@ relationship: variable_of NL:0000230 ! composition
 id: NL:0000066
 name: kernel_protein_nir
 def: "Kernel protein content (% dry matter). Measured with NIR" []
-xref: CO_322:0000122 "Crop Ontology""
+xref: CO_322:0000122 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000230 ! composition
 
@@ -400,7 +400,7 @@ relationship: variable_of NL:0000230 ! composition
 id: NL:0000067
 name: kernel_starch_nir
 def: "Kernel starch content (% dry matter). Measured with NIR" []
-xref: CO_322:0000126 "Crop Ontology""
+xref: CO_322:0000126 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000230 ! composition
 
@@ -408,7 +408,7 @@ relationship: variable_of NL:0000230 ! composition
 id: NL:0000068
 name: leaf_length_cm
 def: "Leaf length (cm). Distance from the base to the tip of the leaf below the primary ear at or near flowering time." []
-xref: CO_322:0000025 "Crop Ontology""
+xref: CO_322:0000025 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000231 ! leaf
 
@@ -416,7 +416,7 @@ relationship: variable_of NL:0000231 ! leaf
 id: NL:0000069
 name: leaf_width_cm
 def: "Leaf width (cm). Width of the widest section of the leaf below the primary ear at or near flowering time" []
-xref: CO_322:0000026 "Crop Ontology""
+xref: CO_322:0000026 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000231 ! leaf
 
@@ -438,7 +438,7 @@ relationship: variable_of NL:0000231 ! leaf
 id: NL:0000072
 name: tiller_index
 def: "tillering index. number of tillers per plant as % of total plants" []
-xref: CO_322:0000059 "Crop Ontology""
+xref: CO_322:0000059 "Crop Ontology"
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000229 ! stand
 
