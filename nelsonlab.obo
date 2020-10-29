@@ -1354,6 +1354,20 @@ def: "grey leaf spot diseased leaf area" []
 is_a: NL:0000200 ! Variables
 relationship: variable_of NL:0000213 ! GLS
 
+[Term]
+id: NL:0000285
+name: std_cnt_early
+def: "stand count after planting" []
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000229 ! stand
+
+[Term]
+id: NL:0000286
+name: notes
+def: "general plot notes" []
+is_a: NL:0000200 ! Variables
+relationship: variable_of NL:0000205 ! agronomic
+
 [Typedef]
 id: property_of
 name: property_of
